@@ -10,17 +10,18 @@ import java.util.List;
 import java.util.Collections;
 
 class FileHelpers {
-    static List<File> getFiles(Path start) throws IOException {
-        File f = start.toFile();
+    static List<File> getFiles(Path base) throws IOException {
+        File f = base.toFile();
         List<File> result = new ArrayList<>();
         if(f.isDirectory()) {
+	    System.out.println(f.toString()+" is a directory.");
             File[] paths = f.listFiles();
             for(File subFile: paths) {
                 result.addAll(getFiles(subFile.toPath()));
             }
         }
         else {
-            result.add(start.toFile());
+            result.add(base.toFile());
         }
         return result;
     }
