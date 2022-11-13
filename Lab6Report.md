@@ -4,7 +4,7 @@ Pick: Changing the name of the start parameter and its uses to base
 ![image](startToBase_openFile.png)
 vim DocSearchServer.java\<Enter\>\
 write this to open DocSearchServer.java in the terminal.
-![image](startTOBase1.png)
+![image](startToBase1.png)
 /start\<Enter\>\
 write this to search for the first start in the DocSearchServer.java
 ![image](startToBase2.png)
