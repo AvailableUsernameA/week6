@@ -8,30 +8,15 @@ write this to open DocSearchServer.java in the terminal.
 /start\<Enter\>\
 write this to search for the first start in the DocSearchServer.java
 ![image](startToBase2.png)
-de\
-write this to delete the word "start"
-![image](startToBase3.png)
-ibase\<esp\>\
-write i to get to insert mode. Then base is to write base in the insert mode. < esp > is to back to normal mode.
-![image](startToBase4.png)
-n\
-This is the command for doing the last command again, which is /start. Thus, it finds the next "start".
-![image](startToBase5.png)
-de\
-This is to delete the word "start".
-![image](startToBase6.png)
-ibase\<esp\>\
-write i to get to insert mode. Then base is to write base in the insert mode. < esp > is to back to normal mode.
-![image](startToBase7.png)
-n\
-This is the command for doing the last command again, which is /start. Thus, it finds the next "start".
-![image](startToBase8.png)
-de\
-This is to delete the word "start".
-![image](startToBase9.png)
-ibase\<esp\>\
-write i to get to insert mode. Then base is to write base in the insert mode. < esp > is to back to normal mode.
-![image](startToBase10.png)
+cebase\<Esp>\
+delete the start just found and write base in the same place.
+![image](startToBaseNew12.png)
+n.\
+find the next start and repeat the previous operation in insert mode (cebase)
+![image](startToBaseNew13.png)
+n.\
+find the next start and repeat the previous operation in insert mode (cebase)
+![image](startToBaseNew14.png)
 :wq\<Enter\>\
 This is to save the change and quit
 ![image](startToBase11.png)
